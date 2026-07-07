@@ -134,4 +134,19 @@ console.log(multiply(3, 4));
  console.log(arr);
 
 //----------------------------------------------------------------------------------------------------------------
-// 
+
+// math in javascript
+
+let n = 10;
+console.log(Math.sqrt(n));
+console.log(Math.pow(n, 2));
+console.log(Math.round(4.5));
+console.log(Math.ceil(4.1));
+console.log(Math.floor(4.9));
+console.log(Math.max(12, 34, 50, 60));
+console.log(Math.min(12, 45, 50, 60));
+console.log(Math.random());
+console.log(Math.abs(n));
+console.log(Math.PI);
+
+//----------------------------------------------------------------------------------------------------------------
