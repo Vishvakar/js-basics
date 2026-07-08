@@ -159,3 +159,42 @@ console.log(date.toTimeString());
 console.log(date.toLocaleString());
 
 //----------------------------------------------------------------------------------------------------------------
+//  for statement
+
+for(let i = 1; i<=4; i++ ){
+    console.log(i);
+}
+
+// while statement
+
+let i = 1;
+while(i <= 4){
+    console.log(i);
+    i++;
+}
+
+// do while statement
+
+let i = 1;
+do{
+    console.log(i);
+    i++;
+}while(i <= 4 );
+
+// for in statement
+
+let student = { name : "vishva ", age : 21 };
+for (let key in student){
+    console.log(key +" : "+ student[key]);
+}
+
+// for of statement
+
+let nums = [1,2, 3, 4] ;
+let sum = 0;
+for ( let n of nums){
+    sum += n;
+}
+console.log(sum);
+
+//----------------------------------------------------------------------------------------------------------------
