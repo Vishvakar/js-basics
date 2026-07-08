@@ -198,3 +198,16 @@ for ( let n of nums){
 console.log(sum);
 
 //----------------------------------------------------------------------------------------------------------------
+
+// if statement 
+
+let age = 18 ;
+if (age >= 18 ){
+ console.log("eligible to vote");
+} 
+
+// if - esle statement
+let age = 18;
+if (age >= 18){
+ console.log("")
+}
