@@ -207,7 +207,44 @@ if (age >= 18 ){
 } 
 
 // if - esle statement
-let age = 18;
+let age = 21;
 if (age >= 18){
- console.log("")
+ console.log("eligible to vote");
+}else {
+    console.log("not eligible to vote");
 }
+
+// if - else if - else statement
+
+let mark = 85;
+if (mark >=  90){
+    console.log("A grade");
+}else if (mark >= 80){
+    console.log("B grade");
+}else if (mark >=60){
+    console.log("C grade");
+}else if (mark >= 40){
+    console.log("D grade");
+}else {
+    console.log("fail");
+}
+
+// switch statement
+
+let day = 1;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    default:
+        console.log("Invalid day");
+}
+
+// -------------------------------------//END//---------------------------------------------------------------------------//
+
